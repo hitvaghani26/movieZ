@@ -17,11 +17,11 @@ const TopRated = () => {
     <div className='carouselSection'>
       <ContentWrapper>
         <span className='carouselTitle'>
-          Tranding
+          Top Rated
         </span>
           <SwitchTabs data ={["Movies", "Tv Shows"]} onTabChange={onTabChange}></SwitchTabs>
       </ContentWrapper>
-      <Carousal data={data?.results} loading={loading} endPoint={endPoint}/>
+      <Carousal data={data?.results} loading={loading} endpoint={endPoint}/>
     </div>
   )
 }

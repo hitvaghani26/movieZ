@@ -35,7 +35,9 @@ const Carousal = ({ data, loading,endpoint, title }) => {
             </div>
         )
     }
+    console.log(data);
     return (
+        
         <div className='carousel' >
             <ContentWrapper>
                 {title && <div className='carouselTitle'>{title}</div>}
